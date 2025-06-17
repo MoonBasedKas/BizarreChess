@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c7sfvugxohs1o"]
+
+[node name="GenericPiece" type="Node2D"]
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Node"]

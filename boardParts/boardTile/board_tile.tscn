@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://d0b36kvr474io"]
+
+[ext_resource type="Script" uid="uid://d04sj8lis35do" path="res://boardParts/boardTile/board_tile.gd" id="1_840mk"]
+[ext_resource type="Texture2D" uid="uid://cpcbxv63o51ek" path="res://boardParts/boardTile/sprites/colorlessTile.png" id="1_t3xch"]
+[ext_resource type="Script" uid="uid://1fp73fe4s7vs" path="res://boardParts/boardTile/texture_container.gd" id="3_p6ytq"]
+[ext_resource type="Texture2D" uid="uid://bo4is3c4h4rhc" path="res://boardParts/boardTile/sprites/biegeTile.png" id="4_opaff"]
+[ext_resource type="Texture2D" uid="uid://cwoesv728ca6u" path="res://boardParts/boardTile/sprites/blackTile.png" id="5_taf37"]
+
+[node name="BoardTile" type="Node2D"]
+script = ExtResource("1_840mk")
+
+[node name="TextureContainer" type="Node" parent="."]
+script = ExtResource("3_p6ytq")
+
+[node name="Textureless" type="Sprite2D" parent="TextureContainer"]
+texture = ExtResource("1_t3xch")
+
+[node name="Biege" type="Sprite2D" parent="TextureContainer"]
+visible = false
+texture = ExtResource("4_opaff")
+
+[node name="Black" type="Sprite2D" parent="TextureContainer"]
+visible = false
+texture = ExtResource("5_taf37")
