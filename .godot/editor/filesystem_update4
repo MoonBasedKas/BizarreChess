@@ -1,6 +1,0 @@
-res://boardParts/board_tile.tscn
-res://boardParts/texture_container.gd
-res://boardParts/board_tile.gd
-res://boardParts/boardTile/board_tile.tscn
-res://boardParts/BoardPiece/GenericPiece.tscn
-res://boardParts/boardTile/board_tile.gd
